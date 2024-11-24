@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Login Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <!-- Snowfall Effect -->
+  <div id="threejs-container"></div>
+
+  <!-- Login Form -->
+  <div class="login-container">
+    <div class="login-box">
+      <h2> Login </h2>
+      <form>
+        <div class="input-group">
+          <label for="username">
+            <i class="fas fa-user"></i>
+          </label>
+          <input type="text" id="username" placeholder="Username" required>
+        </div>
+        <div class="input-group">
+          <label for="password">
+            <i class="fas fa-lock"></i>
+          </label>
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <div class="options">
+          <label>
+            <input type="checkbox"> Remember me
+          </label>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+      <p>Don’t have an account? <a href="#">Register</a></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
